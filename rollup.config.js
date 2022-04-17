@@ -13,7 +13,8 @@ export default {
       format: 'es', // 对于浏览器 打包成ES module
     },
     {
-      file: 'dist/x-charts.js',
+      file: 'dist/x-charts.min.js',
+      name: 'sp',
       format: 'umd', // 对于Node.js和浏览器 打包成混合模式
     },
   ],
